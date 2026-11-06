@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'menu.title':      { it:'Scopri il <span class="text-accent">Menu</span>', en:'Discover the <span class="text-accent">Menu</span>', fr:'Découvrez le <span class="text-accent">Menu</span>', es:'Descubre el <span class="text-accent">Menú</span>' },
     'menu.desc':       { it:'Tradizione sarda, freschezza del mare e un tocco di innovazione.', en:'Sardinian tradition, sea freshness and a touch of innovation.', fr:'Tradition sarde, fraîcheur de la mer et une touche d\'innovation.', es:'Tradición sarda, frescura del mar y un toque de innovación.' },
     'menu.allergens':  { it:'Allergeni', en:'Allergens', fr:'Allergènes', es:'Alérgenos' },
-    'stats.rating':    { it:'Rating medio', en:'Average Rating', fr:'Note moyenne', es:'Valoración media' },
+    'stats.rating':    { it:'Lingue del sito', en:'Site languages', fr:'Langues du site', es:'Idiomas del sitio' },
     'stats.reviews':   { it:'Recensioni', en:'Reviews', fr:'Avis', es:'Reseñas' },
     'stats.year':      { it:'Anno di apertura', en:'Year of Opening', fr:'Année d\'ouverture', es:'Año de apertura' },
     'gallery.tag':     { it:'Galleria', en:'Gallery', fr:'Galerie', es:'Galería' },

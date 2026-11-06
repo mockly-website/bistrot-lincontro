@@ -1,0 +1,20 @@
+/* Ritocchi di leggibilità (revisione Mockly, novembre 2026). */
+:root { --clr-accent: #736a1c; --clr-accent-light: #857b22; --clr-text-muted: #6b6b6b; }
+
+/* Hero: foto più scura sotto il testo, scritte più piene */
+.hero::after { background: rgba(26, 52, 42, 0.72); }
+.hero-badge { color: #e9df8a; border-color: rgba(233, 223, 138, 0.55); background: rgba(0,0,0,.35); }
+.hero-sub { font-weight: 400; }
+
+/* Lingue e menu: punti da toccare più grandi */
+.lang-btn { min-width: 40px; min-height: 40px; padding: 8px 10px; }
+.nav-toggle { width: 44px; height: 44px; }
+.nav-cta { padding: 11px 26px !important; }
+.footer a { padding-block: 0.5rem; }
+
+/* Statistiche: ora sono due */
+.stats-grid { grid-template-columns: repeat(2, 1fr); max-width: 640px; margin-inline: auto; }
+
+/* Campi del modulo a 16px: su iPhone niente zoom */
+input, select, textarea { font-size: 16px !important; }
+.stats-grid .stat-item { grid-column: auto !important; }
